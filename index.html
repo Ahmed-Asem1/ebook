@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebook-Bootstrp5</title>
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/ebook.css" />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a
+          class="logo navbar-brand w-50 d-flex align-items-center text-secondary"
+          href="#"
+        >
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-book-half d-block"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+              />
+            </svg>
+          </span>
+          <span class="ms-2">Net Ninja Pro - the Book</span>
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#topics"
+                >About Thw Book</a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#bookReviews">Reviews</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Get in Touch</a>
+            </li>
+            
+            <a class="btn btn-secondary text-white" href="#pricingPlan">buy now</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start intro -->
+    <div class="intro m-5">
+      <div class="container">
+        <div class="row d-flex justify-content-around align-items-center">
+          <div
+            class="description-intro w-sm-100 w-md-50 text-center text-md-start col-sm-12 col-md-6 ps-md-5"
+          >
+            <h3 class="fw-light">Black Belt</h3>
+            <h4 class="fs-1 fw-light text-secondary">Your Coding Skills</h4>
+            <p class="fw-light fs-5 mt-3 mb-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+
+              <a class="btn btn-secondary text-white mb-2" href="#pricingPlan">Buy Now</a>
+
+            <a
+              class="d-block"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              >Explore my other books</a
+            >
+
+            <!-- Start Sidebar -->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  Offcanvas
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Some text as placeholder. In real life you can have the
+                  elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Dropdown button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End Sidebar -->
+          </div>
+          <div class="intro-image w-50 col-md-6 d-none d-md-block">
+            <img
+              class="w-75"
+              src="./pictures/ebook-cover.png"
+              alt=""
+              data-bs-toggle="tooltip"
+              data-bs-title="Net Ninja Pro book cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End intro -->
+
+    <!-- Start Pricing Plans -->
+    <div class="pricing-plan bg-body-tertiary p-5" id="pricingPlan">
+      <div class="container">
+        <div class="heading text-center mb-5">
+          <h3>Pricing Plans</h3>
+          <span class="d-block text-secondary fs-5"
+            >Choose a pricing plan to suit you.</span
+          >
+        </div>
+        <div
+          class="row gap-0 column-gap-4 justify-content-md-center align-items-center"
+        >
+          <div
+            class="bg-body col-sm-12 col-lg-3 pt-4 pb-4 text-center mt-5 mb-5"
+          >
+            <div class="title">
+              <h4>Starter Edition</h4>
+              <span class="d-block">eBook download only</span>
+            </div>
+            <span class="text-primary d-block fw-bold fs-1 mt-3 mb-3"
+              >$12.99</span
+            >
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              vitae magni! Repellat commodi a fuga corporis saepe dolorum.
+            </p>
+            <button type="button" class="btn btn-outline-warning fs-4">
+              Buy Now
+            </button>
+          </div>
+          <div
+            class="complete-edition p-0 bg-body border border-2 border-warning rounded col-sm-12 col-lg-4 pb-4 text-center"
+          >
+            <h5
+              class="w-100 text-primary bg-secondary-subtle fs-6 fw-normal p-3"
+            >
+              Most Popular
+            </h5>
+            <div class="title pt-4">
+              <h4>Complete Edition</h4>
+              <span class="d-block">eBook download & all updates</span>
+            </div>
+            <span class="text-primary d-block fw-bold fs-1 mt-3 mb-3"
+              >$18.99</span
+            >
+            <p class="text-secondary p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              vitae magni! Repellat commodi a fuga corporis saepe dolorum.
+            </p>
+            <button type="button" class="btn btn-outline-warning fs-4">
+              Buy Now
+            </button>
+          </div>
+          <div class="bg-body col-sm-12 col-lg-3 pt-4 pb-4 text-center mt-5">
+            <div class="title">
+              <h4>Ultimate Edition</h4>
+              <span class="d-block">download, updates & extras</span>
+            </div>
+            <span class="text-primary d-block fw-bold fs-1 mt-3 mb-3"
+              >$24.99</span
+            >
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              vitae magni! Repellat commodi a fuga corporis saepe dolorum.
+            </p>
+            <button type="button" class="btn btn-outline-warning fs-4">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Pricing Plans -->
+
+    <!-- Start Topics -->
+    <div class="topic pt-5 pb-5" id="topics">
+      <div class="container">
+        <div class="heading text-center">
+          <h4 class="fs-2">Inside the Book...</h4>
+          <span class="d-block text-secondary fs-5"
+            >A quick glance at the topics you'll learn</span
+          >
+        </div>
+        <div class="row mt-5 justify-content-md-center align-items-center">
+          <div class="image-topic text-center col-md-10 w-lg-50 col-lg-6 mb-5">
+            <img class="w-75" src="./pictures/kindle.png" alt="" />
+          </div>
+          <div class="accordion col-lg-6 w-lg-50" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Chapter 1 - Your First Web Page
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                  cum deleniti tempora ratione, magnam, inventore ipsam odio
+                  quaerat, officiis labore nihil molestias? Fugit odio dolorum
+                  dolores quidem harum soluta rerum.
+                  <br />
+                  <span class="d-block pt-3"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime reprehenderit necessitatibus mollitia aliquam fuga,
+                    delectus repellendus, expedita, voluptatibus vitae a
+                    recusandae facilis sunt animi aut quos quaerat veritatis.
+                    Enim, itaque.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Chapter 2 - Mastering Css
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                  cum deleniti tempora ratione, magnam, inventore ipsam odio
+                  quaerat, officiis labore nihil molestias? Fugit odio dolorum
+                  dolores quidem harum soluta rerum.
+                  <br />
+                  <span class="d-block pt-3"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime reprehenderit necessitatibus mollitia aliquam fuga,
+                    delectus repellendus, expedita, voluptatibus vitae a
+                    recusandae facilis sunt animi aut quos quaerat veritatis.
+                    Enim, itaque.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Chapter 3 - Thw Power of JavaScript
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                  cum deleniti tempora ratione, magnam, inventore ipsam odio
+                  quaerat, officiis labore nihil molestias? Fugit odio dolorum
+                  dolores quidem harum soluta rerum.
+                  <br />
+                  <span class="d-block pt-3"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime reprehenderit necessitatibus mollitia aliquam fuga,
+                    delectus repellendus, expedita, voluptatibus vitae a
+                    recusandae facilis sunt animi aut quos quaerat veritatis.
+                    Enim, itaque.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Chapter 4 - Storing Data (Firebase Databases)
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                  cum deleniti tempora ratione, magnam, inventore ipsam odio
+                  quaerat, officiis labore nihil molestias? Fugit odio dolorum
+                  dolores quidem harum soluta rerum.
+                  <br />
+                  <span class="d-block pt-3"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime reprehenderit necessitatibus mollitia aliquam fuga,
+                    delectus repellendus, expedita, voluptatibus vitae a
+                    recusandae facilis sunt animi aut quos quaerat veritatis.
+                    Enim, itaque.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Chapter 5 - User Authentication
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                  cum deleniti tempora ratione, magnam, inventore ipsam odio
+                  quaerat, officiis labore nihil molestias? Fugit odio dolorum
+                  dolores quidem harum soluta rerum.
+                  <br />
+                  <span class="d-block pt-3"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime reprehenderit necessitatibus mollitia aliquam fuga,
+                    delectus repellendus, expedita, voluptatibus vitae a
+                    recusandae facilis sunt animi aut quos quaerat veritatis.
+                    Enim, itaque.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Topics -->
+
+    <!-- Start Book Reviews -->
+    <div class="book-reviews bg-body-tertiary pt-5 pb-5" id="bookReviews">
+      <div class="ccontainer-sm-fluid container-lg">
+        <div class="heading text-center">
+          <h4 class="fs-2">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-stars text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                /></svg></span>
+            <span>Book Reviews</span>
+          </h4>
+          <span class="d-block text-secondary fs-5"
+            >What my students have said about the book...</span
+          >
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div
+            class="bg-body col-12 col-lg-7 w-md-100 w-lg-50 border rounded-top p-3"
+          >
+            <div class="stars d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <div class="description">
+              <h5 class="pt-2">A must-buy for every aspiring web dev</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam eveniet id corrupti assumenda nisi maxime odio impedit
+                accusamus ab. Aliquam odio possimus facilis sunt ea voluptas
+                voluptate officiis laborum aut!
+              </p>
+              <span class="d-block">Review by Mario</span>
+            </div>
+          </div>
+          <div class="bg-body col-12 col-lg-7 w-md-100 w-lg-50 border p-3">
+            <div class="stars d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+            </div>
+            <div class="description">
+              <h5 class="pt-2">A must-buy for every aspiring web dev</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam eveniet id corrupti assumenda nisi maxime odio impedit
+                accusamus ab. Aliquam odio possimus facilis sunt ea voluptas
+                voluptate officiis laborum aut!
+              </p>
+              <span class="d-block">Review by Mario</span>
+            </div>
+          </div>
+          <div class="bg-body col-12 col-lg-7 w-md-100 w-lg-50 border p-3">
+            <div class="stars d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <div class="description">
+              <h5 class="pt-2">A must-buy for every aspiring web dev</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam eveniet id corrupti assumenda nisi maxime odio impedit
+                accusamus ab. Aliquam odio possimus facilis sunt ea voluptas
+                voluptate officiis laborum aut!
+              </p>
+              <span class="d-block">Review by Mario</span>
+            </div>
+          </div>
+          <div class="bg-body col-12 col-lg-7 w-md-100 w-lg-50 border p-3">
+            <div class="stars d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+            </div>
+            <div class="description">
+              <h5 class="pt-2">A must-buy for every aspiring web dev</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam eveniet id corrupti assumenda nisi maxime odio impedit
+                accusamus ab. Aliquam odio possimus facilis sunt ea voluptas
+                voluptate officiis laborum aut!
+              </p>
+              <span class="d-block">Review by Mario</span>
+            </div>
+          </div>
+          <div
+            class="bg-body col-12 col-lg-7 w-md-100 w-lg-50 border rounded-bottom p-3"
+          >
+            <div class="stars d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill text-warning me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-half text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star text-warning"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                />
+              </svg>
+            </div>
+            <div class="description">
+              <h5 class="pt-2">A must-buy for every aspiring web dev</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam eveniet id corrupti assumenda nisi maxime odio impedit
+                accusamus ab. Aliquam odio possimus facilis sunt ea voluptas
+                voluptate officiis laborum aut!
+              </p>
+              <span class="d-block">Review by Mario</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Book Reviews -->
+
+    <!-- Start Contact -->
+    <div class="contact pt-5 pb-5" id="contacts">
+      <div class="ccontainer-sm-fluid container-lg">
+        <div class="heading text-center mb-5">
+          <h3>Get in Touch</h3>
+          <span class="d-block text-secondary fs-5"
+            >Questions to ask? Fill out the form to contact me directly...</span
+          >
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <form class="col-lg-8">
+            <span class="d-block mb-2">Email address:</span>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope-fill text-secondary"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"
+                  /></svg></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ahmed Bk @gmail.com"
+                aria-label="Username"
+                aria-describedby="basic-addon1"/>
+              <span
+                class="input-group-text"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Enter an Email Address We can replay to"
+                id="basic-addon1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-question-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <span class="d-block mb-2">Name:</span>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill text-secondary"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                  />
+                </svg>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <span
+                class="input-group-text"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Pretty self explanatory really "
+                id="basic-addon1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-question-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <span class="d-block mb-2">What is your question about?</span>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Options</label
+              >
+              <select class="form-select" id="inputGroupSelect01">
+                <option value="1">Pricing query</option>
+                <option value="2">Content query</option>
+                <option value="3">Other query</option>
+              </select>
+            </div>
+
+            <textarea
+              class="form-control border resizeplaceholder"
+              id="exampleFormControlTextarea1"
+              placeholder="Your query"
+              rows="5"
+            ></textarea>
+
+            <button type="button" class="btn btn-secondary mt-3 d-block m-auto">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Get Update -->
+    <div class="get-update bg-body-tertiary pt-5 pb-5">
+      <div class="container">
+        <div class="heading text-center mb-5">
+          <h3>Stay in The Loop</h3>
+          <span class="d-block text-secondary fs-5"
+            >Get the latest updates as they happen...</span
+          >
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-lg-8 m-auto">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              exercitationem voluptatibus porro, hic asperiores fuga illo
+              voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt
+              ex ipsum. Est possimus, aspernatur, vitae eligendi rem odit
+              quaerat, ipsum pariatur ratione maxime delectus fuga minus
+              accusamus dolores iusto maiores accusantium cumque magnam placeat
+              quia!
+            </p>
+
+            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary d-block m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Register for Updates
+             </button>
+
+             <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Get the Latest Updates</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem laboriosam nihil minus voluptatibus harum aliquam consequatur pariatur inventore dignissimos illum excepturi ratione ipsum sit iusto alias eligendi fugit laborum?
+                </div>
+
+                  <div class="email p-4">
+                    <span class="d-block mb-2">Email address:</span>
+                    <input type="text"class="form-control border" placeholder="Ahmed Bk @gmail.com"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"/>
+                  </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Get Update -->
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/ebook.js"></script>
+  </body>
+</html>

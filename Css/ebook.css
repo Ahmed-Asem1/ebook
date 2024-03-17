@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --bs-primary-rgb: 194, 153, 56;
+  --bs-primary-bg-subtle: rgba(194, 153, 56, 0.1);
+}
+
+/* Start Navbar */
+nav .container a.logo {
+  font-weight: 700;
+}
+nav ul li:hover {
+  color: rgb(0 0 0 / 70%) !important;
+}
+/* End Navbar */
+
+/* Start intro */
+.intro .description-intro h3 {
+  font-size: 60px;
+}
+.intro .description-intro a {
+  color: #c29938;
+}
+.intro .description-intro a:hover {
+  color: #9b7a2d;
+}
+
+/* Start Pricing Plans */
+.pricing-plan .complete-edition {
+  height: 30em;
+}
+/* End Pricing Plans */
+
+/* Start Topics */
+.accprdion button.btn-click:focus{
+    box-shadow: 0 !important;
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem rgba(194, 153, 56,0.25);
+}
+/* End Topics */
+
+/* Start Book Reviews */
+/* End Book Reviews */
+
+/* Start Contact */
+.contact .resizeplaceholder::placeholder{
+  color: black;
+}
+.contact form .form-control:focus,
+.contact form .form-select:focus{
+  box-shadow: 0 0 0 0.25rem rgba(194, 153, 56,0.25);
+}
+.contact .resizeplaceholder:focus::placeholder{
+  font-size: 12px;
+  color: gray;
+}
+/* End Contact */
+
+/* Start Get Update */
+.get-update .btn-primary{
+  color: #000;
+  background-color: #c29938;
+  border-color: #c29938;
+}
+.get-update .btn-primary:hover{
+  color: #000;
+  background-color: #cba856;
+  border-color: #c8a34c;
+}
+.get-update .btn-close:focus{
+  box-shadow: 0 0 0 0.25rem rgba(194, 153, 56,0.25);
+}
+.get-update .form-control:focus{
+  box-shadow: 0 0 0 0.25rem rgba(194, 153, 56,0.25);
+}
+/* End Get Update */

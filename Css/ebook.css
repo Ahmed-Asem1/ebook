@@ -15,11 +15,36 @@ nav .container a.logo {
 nav ul li:hover {
   color: rgb(0 0 0 / 70%) !important;
 }
+nav ul a.buy-now{
+  width: fit-content;
+}
 /* End Navbar */
 
-/* Start intro */
+/* Start Intro */
+.intro{
+  padding: 5em 0;
+}
+@media(min-width:992px){
+  .intro .container{
+    padding: 0 7em;
+  }
+  .intro .description-intro{
+    padding-left: 1.6em;
+  }
+}
 .intro .description-intro h3 {
-  font-size: 60px;
+  font-size: 70px;
+}
+@media(max-width:509px){
+  .intro .description-intro h3{
+    font-size: 50px !important;
+  }
+  .intro .description-intro h4{
+    font-size: 26px !important;
+  }
+}
+.intro .description-intro h4{
+  font-size: 48px
 }
 .intro .description-intro a {
   color: #c29938;
@@ -27,14 +52,49 @@ nav ul li:hover {
 .intro .description-intro a:hover {
   color: #9b7a2d;
 }
+.intro .intro-image img{
+    width: 98%;
+    /* margin-right: 8em; */
+}
+/* End Intro */
+
 
 /* Start Pricing Plans */
+.pricing-plan{
+  padding: 5em 0;
+}
+@media(max-width:767px){
+  .pricing-plan .row > div{
+    margin: 0 auto;
+  }
+}
+@media(min-width:768px){
+.pricing-plan .row .col-10{
+  width: 87%;
+  margin: 0 auto;
+}
+}
+@media(min-width:992px){
+  .pricing-plan .container{
+    padding: 0 7em;
+  }
+  .pricing-plan .col-lg-4{
+    width: 36.333333% !important;
+  }
+  .pricing-plan .col-lg-3{
+    width: 27.3% !important;
+  }
+}
 .pricing-plan .complete-edition {
   height: 30em;
 }
 /* End Pricing Plans */
 
+
 /* Start Topics */
+.topic{
+  padding: 5em 0;
+}
 .accprdion button.btn-click:focus{
     box-shadow: 0 !important;
 }
@@ -44,9 +104,25 @@ nav ul li:hover {
 /* End Topics */
 
 /* Start Book Reviews */
+.book-reviews{
+  padding: 5em 0;
+}
+@media(min-width:992px){
+  .book-reviews .col-lg-8{
+    width: 64.666667%;
+  }
+}
 /* End Book Reviews */
 
 /* Start Contact */
+.contact{
+  padding: 5em 0;
+}
+@media(min-width:992px){
+  .contact .row .col-lg-8{
+  width: 50.666667%;
+  }
+}
 .contact .resizeplaceholder::placeholder{
   color: black;
 }
